@@ -1,39 +1,58 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Granny Ma Spices</title>
-  <style>
-    body {
-      font-family: Helvetica, Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      text-align: center;
-      margin-top: 100px;
-    }
-    h1 {
-      color: #c95c00;
-    }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      text-decoration: none;
-      background: #c95c00;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-    a:hover {
-      background: #a54b00;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GrannyMa Organic Spices - Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to Granny Ma Spices 🌶️</h1>
-  <p>Pure. Traditional. Authentic. Taste the heritage of India.</p>
-  <a href="about.html">Learn More</a>
+  <div class="container">
+    <header class="header">
+      <img src="images/logo_mobile.jpeg" alt="GrannyMa Logo" class="logo-img">
+      <div>
+        <div class="brand">GrannyMa Organic Spices</div>
+        <div class="tag">Natural Divine Taste · Jaipur, Rajasthan</div>
+      </div>
+    </header>
+
+    <nav style="margin-top:8px;">
+      <a href="index.html" style="margin-right:12px">Home</a>
+      <a href="products.html" style="margin-right:12px">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+      <div class="left">
+        <h1>From Granny's Kitchen to Your Home</h1>
+        <p>At GrannyMa Organic Spices we celebrate generations of taste and tradition. Every spice is hand-selected, lovingly processed, and full of the authentic aroma that turns ordinary meals into memories. Based in Jaipur, our spices are treasured across kitchens for their unmatched purity and flavour.</p>
+        <a class="cta" href="products.html">Explore Products</a>
+      </div>
+      <div class="right">
+        <img src="images/logo_mobile.jpeg" alt="GrannyMa" style="width:320px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.06)">
+      </div>
+    </section>
+
+    <section>
+      <h2 style="color:var(--accent);margin-top:28px">Why Customers Love GrannyMa</h2>
+      <div class="card-grid" style="margin-top:12px">
+        <div class="card"><h3>Authentic & Traditional</h3><p class="small">Recipes and grinding methods passed down through family generations to preserve real flavour.</p></div>
+        <div class="card"><h3>Organic & Pure</h3><p class="small">No adulteration — sourced from trusted growers across India and processed with care.</p></div>
+        <div class="card"><h3>Premium Quality</h3><p class="small">Handpicked, sun-dried, and packed to lock in aroma and freshness.</p></div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="owner">
+        <div>
+          <div style="font-weight:700">Owner: Shalini Tripathi</div>
+          <div class="small">Jaipur, Rajasthan · +91-8840530308</div>
+        </div>
+      </div>
+      <div>
+        <a class="contact-btn" href="contact.html">Get in Touch</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
